@@ -1,0 +1,30 @@
+body{
+    background-color: $beige;
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    &--text{
+    justify-content:center;
+    align-items: center;
+}
+&--btn{
+    background-color: $vino;
+    color: white;
+    padding:  5px 35px ;
+
+    &:hover{
+        background-color: $turquesa;
+        color: white;
+    }
+}
+}
+
+@media screen and (max-width: 414px){
+   .header__container--btn{
+    width: 100%;
+   }
+}

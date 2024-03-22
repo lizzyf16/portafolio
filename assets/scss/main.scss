@@ -1,0 +1,24 @@
+// Required
+@import '../vendors/bootstrap/scss/functions';
+@import "../vendors/bootstrap/scss/variables";
+@import "../vendors/bootstrap/scss/variables-dark";
+//1. abstracts
+@import './abstracts/variables',
+'./abstracts/custom_bootstrap';
+//2. vendor
+@import '../vendors/bootstrap/scss/bootstrap.scss';
+//3. base
+@import
+'./base/typographic',
+'./base/reset';
+//4. layout
+@import
+'./layout/navbar',
+'./layout/header',
+'./layout/containes-skill',
+'./layout/container-proyect';
+// @import './layout/menus';
+//5. components
+// @import './components/table-crud';
+//6. pages
+//7. themes

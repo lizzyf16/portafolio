@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto portafolio</title>
+
+    <!-- BOOTSTRAP CSS 5.3.3 -->
+    <script defer src="./assets/vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"   />
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid container">
+            <a class="navbar-brand" href="#">
+                <h5>Liz Ferández</h5>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mishabilidades">Mis habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#misproyectos">Mis Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactame">Contáctame</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="header container py-3">
+        <div class="header__container row">
+            <div class="col-12 col-md-6 header__container--img">
+                <img width="100%" height="70%" src="./assets/img/developer.svg" alt="">
+            </div>
+            <div class="col-12 col-md-6 p-4 header__container--text">
+                <h1>Soy Liz Fernández</h1>
+                <h2>Diseñadora Gráfica</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium fugit commodi incidunt inventore
+                    pariatur cum autem dicta, neque explicabo quod ipsam facere accusamus recusandae nostrum obcaecati,
+                    reprehenderit, a aliquid nobis.
+                </p>
+                <button class="btn header__container--btn">Contáctame</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="skill container" id="mishabilidades">
+            <div class="skill__title">
+                <h2 class="text-center">Mis habilidades</h2>
+            </div>
+            <div class="skill__container">
+                <div class=" skill__container__indi">
+                    <div class="skill__container__indi--item">
+                        <i class="fa-brands fa-html5 skill__container--icon"></i>
+                        <h4>HTML</h4>
+                    </div>
+                    <div class="skill__container__indi--item">
+                        <i class="fa-brands fa-css3-alt skill__container--icon2"></i>
+                        <h4>CSS</h4>
+                    </div>
+                    <div class="skill__container__indi--item">
+                        <i class="fa-brands fa-sass skill__container--icon3"></i>
+                        <h4>Sass</h4>
+                    </div>
+                    <div class="skill__container__indi--item">
+                        <i class="fa-brands fa-bootstrap skill__container--icon4"></i>
+                        <h4>Bootstrap</h4>
+                    </div>
+                </div>
+                <div class="skill__container__indi">
+                    <div class="skill__container__indi--item">
+                        <i class="fa-brands fa-git-alt skill__container--icon5"></i>
+                        <h4>Git</h4>
+                    </div>
+                    <div class="skill__container__indi--item">
+                        <i class="fa-brands fa-github skill__container--icon6"></i>
+                        <h4>GitHub</h4>
+                    </div>
+                    <div class="skill__container__indi--item">
+                        <i class="fa-brands fa-js skill__container--icon7"></i>
+                        <h4>JavaScript
+                        </h4>
+                    </div>
+                    <div class="skill__container__indi--item">
+                        <i class="fa-brands fa-vuejs skill__container--icon8"></i>
+                        <h4>Vue</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="proyect container" id="misproyectos">
+            <div class="proyect__title">
+                <h2 class="text-center">Mis Proyectos</h2>
+            </div>
+            <div class="proyect__container row">
+                <div class="card proyect__container__card" style="width: 18rem;">
+                    <a href="https://lizzyf16.github.io/desafio-viajes-chile2/" target="_blank"><img
+                            src="./assets/img/proyecto1.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body text-center">
+                        <h4>Viajes Chile</h4>
+                    </div>
+                </div>
+                <div class="card proyect__container__card" style="width: 18rem;">
+                    <a href="https://lizzyf16.github.io/desafio-cafeteria-m3/" target="_blank"><img
+                            src="./assets/img/proyecto2.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body text-center">
+                        <h4>Café Agere</h4>
+                    </div>
+                </div>
+                <div class="card proyect__container__card" style="width: 18rem;">
+                    <a href="https://lizzyf16.github.io/cuppon/" target="_blank"><img
+                            src="./assets/img/proyecto3.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body text-center">
+                        <h4>Cuppon</h4>
+                    </div>
+                </div>
+                <div class="card proyect__container__card" style="width: 18rem;">
+                    <a href="https://lizzyf16.github.io/mettcancoffee/" target="_blank"><img
+                            src="./assets/img/proyecto4.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body text-center">
+                        <h4>Meet & Coffee</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact container" id="contactame">
+            <div class="contact__title">
+                <h2 class="text-center">Contáctame</h2>
+            </div>
+</body>
+
+</html>

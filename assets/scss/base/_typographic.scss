@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&family=Varela&display=swap');
+
+h5{
+    font-family: $style-font;
+    font-size: $fsxlarge;
+    font-weight: $font-bold;
+    color: $vino;
+}
+
+h1{
+    font-family: $style-font;
+    font-size: $fsxxxlarge;
+    font-weight: $font-bold;
+    color: $vino;  
+}
+h2{
+    font-family: $varela-font;
+    font-size: $fsxxlarge;
+    font-weight: $font-bold;
+    color: $turquesa;
+
+}
+p{
+    font-family: $varela-font;
+    font-size: $fsmedium;
+    font-weight: $font-medium;
+}
+
+h4{
+    font-family: $varela-font;
+    font-size: $fslarge;
+    font-weight: $font-bold;
+}

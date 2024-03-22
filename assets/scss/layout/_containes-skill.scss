@@ -1,0 +1,75 @@
+.skill__container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px 0;
+
+    &__indi {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+
+        &--item {
+            display: flex;
+            justify-content:space-between;
+            gap: 10px;
+            align-items: center;
+        }
+}
+
+    &--icon {
+        color: $html;
+        font-size: $fsxlarge;
+    }
+    &--icon2 {
+        color: $css;
+        font-size: $fsxlarge;
+    }
+    &--icon3 {
+        color: $sass;
+        font-size: $fsxlarge;
+    }
+    
+    &--icon4 {
+        color: $bootstrap;
+        font-size: $fsxlarge;
+    }
+
+    &--icon5 {
+        color: $git;
+        font-size: $fsxlarge;
+    }
+
+    &--icon6 {
+        color: $github;
+        font-size: $fsxlarge;
+    }
+
+    &--icon7 {
+        color: $java;
+        font-size: $fsxlarge;
+    }
+
+    &--icon8 {
+        color: $vue;
+        font-size: $fsxlarge;
+    }
+}
+@media screen and (max-width: 414px){
+    .skill__container{
+        display: flex;
+        
+
+        &__indi{
+            display: block;
+            justify-content:left;
+            text-align:left;
+            &--item{
+            display: flex;
+            justify-content:left;
+            gap: 10px;
+            text-align: left;
+            }
+        }
+    }
+
+}

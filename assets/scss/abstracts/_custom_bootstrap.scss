@@ -1,0 +1,11 @@
+// Create your own map
+$custom-colors: (
+  "custom-primary": $vino,
+  "custom-secondary": $turquesa,
+  "custom-back": $beige,
+
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
